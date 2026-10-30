@@ -2,13 +2,7 @@
 
 A lightweight, high-performance, and customizable browser start page and daily productivity launcher.
 
-<div align="center">
-  <img src="assests/images/showimage.png" alt="Starter Showcase" width="850" />
-</div>
-
----
-
-## ✨ Features
+## Features
 
 - **⚙️ Full User Customization**:
   - **Add New Blocks**: Create custom category blocks anytime.
@@ -21,7 +15,7 @@ A lightweight, high-performance, and customizable browser start page and daily p
   - Automatically saves all your customizations in your browser.
   - **Export to JSON** to back up your setup or take it to another device.
   - **Import from JSON** or **Reset to Defaults** at any time.
-- **🎨 Modern Dark Glassmorphic Design**:
+- ** Modern Dark Glassmorphic Design**:
   - Curated dark palette with translucent blur (`backdrop-filter: blur(10px)`).
   - Smooth hover micro-interactions and transitions.
   - Fully responsive across desktop, tablet, and mobile screens.
@@ -39,7 +33,7 @@ A lightweight, high-performance, and customizable browser start page and daily p
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 starter/
@@ -55,7 +49,7 @@ starter/
 
 ---
 
-## 💻 Running Locally
+## Running Locally
 
 Simply clone the repository and open `index.html` directly in your browser, or run a local HTTP server:
 
