@@ -1,0 +1,1334 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starter</title>
+    <link rel="icon" href="assests/images/go.png" />
+    <link rel="stylesheet" href="styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="head1">
+        <img class="go-icon" src="assests/images/go.png" alt="🚀" />
+        <h1>Where to go, Boss ?</h1>
+      </div>
+      <div class="header-controls">
+        <div class="search-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="starter-search" placeholder="Search links or blocks... (press /)" autocomplete="off" />
+          <button id="clear-search-btn" class="icon-btn" title="Clear search" style="display:none;">✕</button>
+        </div>
+        <div class="header-buttons">
+          <button id="customize-btn" class="action-btn" title="Toggle customization mode">
+            <span class="btn-icon">⚙️</span>
+            <span class="btn-text">Customize</span>
+          </button>
+          <div id="customize-actions" class="customize-actions" style="display: none;">
+            <button id="add-block-btn" class="action-btn secondary" title="Add a new category block">
+              <span>➕</span> Block
+            </button>
+            <button id="settings-btn" class="action-btn secondary" title="Manage & Backup">
+              <span>💾</span> Manage
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Frequents</h2>
+        <a href="https://www.google.com/" target="_blank">
+          <img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.google.com/"
+            alt=""
+          />
+          Search | mic | lens | AskAI</a
+        >
+        <a href="https://github.com/shubhgw" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Github</a
+        >
+        <a href="https://leetcode.com/problemset/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://leetcode.com/"
+            alt=""
+          />
+          Leetcode</a
+        >
+        <a href="https://open.spotify.com/collection/tracks" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://open.spotify.com/collection/tracks"
+            alt=""
+          />
+          Spotify</a
+        >
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://web.whatsapp.com/"
+            alt=""
+          />
+          Whatsapp</a
+        >
+        <a href="https://monkeytype.com/account" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://monkeytype.com/account"
+            alt=""
+          />
+          MonkeyType</a
+        >
+        <a href="https://wic.walchandsangli.ac.in/Erp_Main.aspx" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://wic.walchandsangli.ac.in/Erp_Main.aspx"
+            alt=""
+          />
+          WCE - ERP</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Google WorkSpace</h2>
+        <a
+          href="https://myaccount.google.com/?utm_source=OGB&utm_medium=app&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://myaccount.google.com/?utm_source=OGB&utm_medium=app&authuser=0"
+            alt=""
+          />
+          Accounts</a
+        >
+        <a href="https://www.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.google.com/?authuser=0"
+            alt=""
+          />
+          Search</a
+        >
+        <a href="https://drive.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://drive.google.com/?authuser=0"
+            alt=""
+          />
+          Drive</a
+        >
+        <a href="https://photos.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://photos.google.com/?authuser=0"
+            alt=""
+          />
+          Photos</a
+        >
+        <a
+          href="https://docs.google.com/document/?usp=docs_alc&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://docs.google.com/document/?usp=docs_alc&authuser=0"
+            alt=""
+          />
+          Docs</a
+        >
+        <a href="https://mail.google.com/mail/u/0/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://mail.google.com/mail/u/0/"
+            alt=""
+          />
+          Mail</a
+        >
+        <a
+          href="https://gemini.google.com/?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://gemini.google.com/?utm_source=app_launcher&utm_medium=owned&utm_campaign=base_all&authuser=0"
+            alt=""
+          />
+          Gemini</a
+        >
+        <a href="https://maps.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://maps.google.com/?authuser=0"
+            alt=""
+          />
+          Maps</a
+        >
+        <a
+          href="https://docs.google.com/spreadsheets/?usp=sheets_alc&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://docs.google.com/spreadsheets/"
+            alt=""
+          />
+          Spread Sheets</a
+        >
+        <a
+          href="https://music.youtube.com/?utm_source=app_launcher&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://music.youtube.com/?utm_source=app_launcher&authuser=0"
+            alt=""
+          />
+          YT Music</a
+        >
+        <a href="https://www.youtube.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.youtube.com/?authuser=0"
+            alt=""
+          />
+          Youtube</a
+        >
+        <a
+          href="https://calendar.google.com/calendar?authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://calendar.google.com/calendar?authuser=0"
+            alt=""
+          />
+          Calendar</a
+        >
+        <a href="https://meet.google.com/?hs=197&authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://meet.google.com/?hs=197&authuser=0"
+            alt=""
+          />
+          Meet</a
+        >
+        <a
+          href="https://docs.google.com/presentation/?usp=slides_alc&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://docs.google.com/presentation/?usp=slides_alc&authuser=0"
+            alt=""
+          />
+          Slides</a
+        >
+        <a href="https://translate.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://translate.google.com/?authuser=0"
+            alt=""
+          />
+          Translator</a
+        >
+        <a href="https://contacts.google.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://contacts.google.com/?authuser=0"
+            alt=""
+          />
+          Contacts</a
+        >
+        <a href="https://docs.google.com/forms/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://docs.google.com/forms/?authuser=0"
+            alt=""
+          />
+          Forms</a
+        >
+        <a href="https://earth.google.com/web/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://earth.google.com/web/?authuser=0"
+            alt=""
+          />
+          Earth
+        </a>
+        <a href="https://www.blogger.com/?authuser=0" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.blogger.com/?authuser=0"
+            alt=""
+          />
+          Blogger</a
+        >
+        <a
+          href="https://notebooklm.google.com/?utm_source=app_launcher&utm_medium=referral&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://notebooklm.google.com/?utm_source=app_launcher&utm_medium=referral&authuser=0"
+            alt=""
+          />
+          Notebook LM</a
+        >
+        <a
+          href="https://tasks.google.com/tasks?utm_source=OGB&utm_medium=app&authuser=0"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://tasks.google.com/tasks?utm_source=OGB&utm_medium=app&authuser=0"
+            alt=""
+          />
+          Tasks</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          Fonts</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Current Learning</h2>
+        <a
+          href="https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.youtube.com/watch?v=tVzUXW6siu0&list=PLu0W_9lII9agq5TrH9XLIKQvv0iaF2X3w"
+            alt=""
+          />
+          Web Dev course</a
+        >
+        <a
+          href="https://www.youtube.com/watch?v=dY-OpnLZRd0&list=PLbtI3_MArDOmSKABu09sEs0SxCibd1wgr"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.youtube.com/watch?v=dY-OpnLZRd0&list=PLbtI3_MArDOmSKABu09sEs0SxCibd1wgr"
+            alt=""
+          />
+          JS DSA</a
+        >
+        <a
+          href="https://roadmap.sh/datastructures-and-algorithms"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://roadmap.sh/datastructures-and-algorithms"
+            alt=""
+          />
+          Data Structures & Algorithms</a
+        >
+        <a
+          href="https://roadmap.sh/full-stack"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://roadmap.sh/full-stack"
+            alt=""
+          />
+          Full stack Web Dev</a
+        >
+        <a
+          href="https://drive.google.com/drive/u/2/folders/1Fee_s1AUagEWCylh-fcsN_UmfDVGcaDE"
+          target="_blank"
+        >
+          <img
+            src="https://www.google.com/s2/favicons?domain_url=https://drive.google.com/drive/folders/1LGZ51nkhOQIngCxQUizltNhUma3HqumD?usp=sharing"
+            alt=""
+          />
+          Study Material & Assignments</a
+        >
+        <!-- <a
+          href="https://www.hostafrica.com/blog/linux/linux-commands/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.hostafrica.com/blog/linux/linux-commands/"
+            alt=""
+          />
+          Linux 100 Commands
+        </a> -->
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Coding Pfs</h2>
+        <a href="https://github.com/shubhgw?tab=repositories" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Github</a
+        >
+        <a href="https://leetcode.com/problemset/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://leetcode.com/"
+            alt=""
+          />
+          LeetCode</a
+        >
+        <a href="https://www.codechef.com/practice#beginner-dsa" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.codechef.com/"
+            alt=""
+          />
+          CodeChef</a
+        >
+        <a href="https://www.hackerearth.com/practice/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.hackerearth.com/"
+            alt=""
+          />
+          HackerEarth</a
+        >
+        <a href="https://www.hackerrank.com/profile/shubhgw" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.hackerrank.com/profile/shubhgw"
+            alt=""
+          />
+          HackerRank</a
+        >
+        <a href="https://exercism.org/tracks/javascript" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://exercism.org/"
+            alt=""
+          />
+          Exercism</a
+        >
+        <a href="https://onecompiler.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://onecompiler.com/"
+            alt=""
+          />
+          OneCompiler</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Learning Resources</h2>
+        <a href="https://roadmap.sh" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://roadmap.sh"
+            alt=""
+          />
+          Tech Roadmaps</a
+        >
+        <a href="https://www.enggroom.com/Default.aspx" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.enggroom.com/Default.aspx"
+            alt=""
+          />
+          Engg Room</a
+        >
+        <a href="https://swayam.gov.in/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://swayam.gov.in/"
+            alt=""
+          />
+          Swayam - NPTEL</a
+        >
+        <a
+          href="https://www.w3resource.com/javascript-exercises/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.w3resource.com/javascript-exercises/"
+            alt=""
+          />
+          JavaScript Exercises</a
+        >
+        <a href="https://oceanofpdf.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://oceanofpdf.com/"
+            alt=""
+          />
+          Ocean of PDF</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Social</h2>
+        <a href="https://www.linkedin.com/in/shubhgw/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.linkedin.com/in/shubhgw/"
+            alt=""
+          />
+          LinkedIn</a
+        >
+        <a href="https://www.youtube.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.youtube.com/"
+            alt=""
+          />
+          Youtube</a
+        >
+        <a href="https://instagram.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://instagram.com/"
+            alt=""
+          />
+          Insta</a
+        >
+        <a href="https://discord.com/channels/@me" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://discord.com/channels/@me"
+            alt=""
+          />
+          Discord</a
+        >
+        <a href="https://web.whatsapp.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://web.whatsapp.com/"
+            alt=""
+          />
+          Whatsapp</a
+        >
+        <a href="https://x.com/home" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://x.com/home"
+            alt=""
+          />
+          Twitter</a
+        >
+        <a href="https://web.telegram.org/a/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://web.telegram.org/a/"
+            alt=""
+          />
+          Telegram</a
+        >
+        <a href="https://reddit.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://reddit.com/"
+            alt=""
+          />
+          Reddit</a
+        >
+        <a href="https://www.youtube.com/playlists" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.youtube.com/playlists"
+            alt=""
+          />
+          YT Playlists</a
+        >
+        <a href="https://www.instagram.com/shubhgw/saved/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://instagram.com/"
+            alt=""
+          />
+          IG saved
+        </a>
+        <!-- <a
+          href="https://www.instagram.com/your_activity/interactions/likes/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://instagram.com/"
+            alt=""
+          />
+          IG Activities
+        </a> -->
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>AI tools</h2>
+        <a href="https://gemini.google.com/app?hl=en-IN" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://gemini.google.com/app?hl=en-IN"
+            alt=""
+          />
+          Gemini - overall</a
+        >
+        <a href="https://chatgpt.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chatgpt.com/"
+            alt=""
+          />
+          ChatGPT - overall</a
+        >
+        <a href="https://claude.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://claude.ai/"
+            alt=""
+          />
+          Claude - deep work</a
+        >
+        <a href="https://www.perplexity.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.perplexity.ai/"
+            alt=""
+          />
+          Perplexity - reasearch</a
+        >
+        <a href="https://grok.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://grok.com/"
+            alt=""
+          />
+          Grok - Direct Shots</a
+        >
+        <a href="https://chat.deepseek.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chat.deepseek.com/"
+            alt=""
+          />
+          DeepSeek - Maths & reasoning</a
+        >
+        <a href="https://antigravity.google/download" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://antigravity.google/download"
+            alt=""
+          />
+          Antigravity - AI code IDE</a
+        >
+        <a href="https://lovable.dev/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://lovable.dev/"
+            alt=""
+          />
+          Lovable - vibe coding</a
+        >
+        <a href="https://www.canva.com/magic-design/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.canva.com/magic-design/"
+            alt=""
+          />
+          Canva Magic design - image gen & mod</a
+        >
+        <a href="https://stitch.withgoogle.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://stitch.withgoogle.com/"
+            alt=""
+          />
+          Stitch AI - UI designer</a
+        >
+        <a href="https://www.octoparse.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.octoparse.com/"
+            alt=""
+          />
+          Octoparse - web scrapper</a
+        >
+        <a href="https://www.kimi.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.kimi.ai/"
+            alt=""
+          />
+          Kimi k2 - automation</a
+        >
+        <a href="https://www.synthesia.io/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.synthesia.io/"
+            alt=""
+          />
+          Synthesia - corporate avatars vdo</a
+        >
+        <a href="https://chat.qwen.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chat.qwen.ai/"
+            alt=""
+          />
+          Qwen - image gen</a
+        >
+        <a href="https://nanobanana.com/#features" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://nanobanana.com/#features"
+            alt=""
+          />
+          Nano banana - image gen</a
+        >
+        <a href="https://www.midjourney.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.midjourney.com/"
+            alt=""
+          />
+          MidJourney v7 - image gen</a
+        >
+        <a href="https://runwayml.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://runwayml.com/"
+            alt=""
+          />
+          Runway gen3 -complex video gen</a
+        >
+        <a href="https://www.zapier.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.zapier.com/"
+            alt=""
+          />
+          Zapier - automated workflow</a
+        >
+        <a href="https://www.jasper.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.jasper.ai/"
+            alt=""
+          />
+          Jasper - marketing campaigns</a
+        >
+        <a href="https://www.elevenlabs.io/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.elevenlabs.io/"
+            alt=""
+          />
+          ElevenLabs - voice gen</a
+        >
+        <a href="https://www.mubert.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.mubert.com/"
+            alt=""
+          />
+          Mubert - music gen</a
+        >
+        <a
+          href="https://deepmind.google/technologies/alphafold/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://deepmind.google/technologies/alphafold/"
+            alt=""
+          />
+          gDeepMind AlphaFold 3 - discorvery</a
+        >
+        <a href="https://cursor.sh/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://cursor.sh/"
+            alt=""
+          />
+          Cursor - AI code IDE</a
+        >
+        <a href="https://vercel.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://vercel.com/"
+            alt=""
+          />
+          v0 vercel - gen UI
+        </a>
+        <a href="https://www.warp.dev/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.warp.dev/"
+            alt=""
+          />
+          Warp - CLI assistant</a
+        >
+        <!-- <a href="https://www.gepetto.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.gepetto.com/"
+            alt=""
+          />
+          Gepetto - Rev eng.</a
+        > -->
+        <a href="https://snyk.io/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://snyk.io/"
+            alt=""
+          />
+          Snyk - security scanner</a
+        >
+        <a href="https://www.vanna.ai/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.vanna.ai/"
+            alt=""
+          />
+          Vanna - text to SQL</a
+        >
+        <a href="https://huggingface.co/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://huggingface.co/"
+            alt=""
+          />
+          Hugging Face - Model evaluation lab</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Development</h2>
+        <a
+          href="https://goonlinetools.com/online-clipboard/#362857"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=fonts.google.com"
+            alt=""
+          />
+          gFonts html BP</a
+        >
+        <a
+          href="https://goonlinetools.com/online-clipboard/#014852"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=fonts.google.com"
+            alt=""
+          />
+          gFonts css BP</a
+        >
+        <a href="https://goonlinetools.com/online-clipboard/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://goonlinetools.com/online-clipboard/"
+            alt=""
+          />
+          Online Clipboard</a
+        >
+        <a href="https://uiverse.io" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://uiverse.io"
+            alt=""
+          />
+          UIverse - templates</a
+        >
+        <a
+          href="https://imgs.search.brave.com/lVTFHVfRFZyj2W2rDObcB-h9vTdY0ZMMojavJLTSCfw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzlmL2Y3/L2EzLzlmZjdhMzc5/Zjk4MjdlMDk3MGFj/YTBiNzg5ZjNlNDFl/LmpwZw"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://colorhunt.co/"
+            alt=""
+          />
+          Color wheel</a
+        >
+        <a href="https://reactbits.dev" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://reactbits.dev"
+            alt=""
+          />
+          react templates</a
+        >
+        <a href="https://iconscout.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://iconscout.com/"
+            alt=""
+          />
+          Icons</a
+        >
+        <a href="https://fontawesome.com " target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fontawesome.com/"
+            alt=""
+          />
+          SVGs</a
+        >
+        <a href="https://coolors.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://coolors.com"
+            alt=""
+          />
+          Color combos</a
+        >
+        <a href="https://webgradients.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://webgradients.com"
+            alt=""
+          />
+          Color gradients</a
+        >
+        <a href="https://pexels.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://pexels.com"
+            alt=""
+          />
+          stock photos</a
+        >
+        <a href="https://pixelied.com " target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://pixelied.com/"
+            alt=""
+          />
+          Image surgery</a
+        >
+        <a href="https://mobbin.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://mobbin.com/"
+            alt=""
+          />
+          Mobbin - UI Design Inspiration</a
+        >
+        <a href="http://moewalls.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=http://moewalls.com/"
+            alt=""
+          />
+          Moe Walls - live Wallpapers</a
+        >
+        <a
+          href="https://animista.net/play/background/color-change"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://animista.net/play/background/color-change"
+            alt=""
+          />
+          css animations</a
+        >
+        <a href="http://getwaves.io" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://getwaves.io"
+            alt=""
+          />
+          css effects</a
+        >
+
+        <a href="https://codepen.io/w3resource/pen/jYVvao" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://codepen.io/w3resource/pen/jYVvao"
+            alt=""
+          />
+          code pen</a
+        >
+        <a href="https://www.shorturl.at/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.shorturl.at/"
+            alt=""
+          />
+          URL shortner
+        </a>
+        <a href="https://emojiguide.org/rocket" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://emojiguide.org/rocket"
+            alt=""
+          />
+          Imogi codes</a
+        >
+        <a href="https://www.canva.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.canva.com/"
+            alt=""
+          />
+          Canva</a
+        >
+
+        <a href="https://www.photopea.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.photopea.com/"
+            alt=""
+          />
+          Photopea</a
+        >
+        <a href="https://lingojam.com/FancyTextGenerator" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://lingojam.com/FancyTextGenerator"
+            alt=""
+          />
+          Fancy Fonts</a
+        >
+        <a href="https://www.ilovepdf.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.ilovepdf.com/"
+            alt=""
+          />
+          PDF tools</a
+        >
+        <a href="https://www.iloveimg.com/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.iloveimg.com/"
+            alt=""
+          />
+          Image tools</a
+        >
+        <a href="https://onlinepngtools.com/change-png-color" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://onlinepngtools.com/change-png-color"
+            alt=""
+          />
+          Image Color Changer</a
+        >
+        <a href="https://ui.aceternity.com/components" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://ui.aceternity.com/components"
+            alt=""
+          />
+          Aceternity UI Components</a
+        >
+        <a href="https://animmasterlib.dev/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://animmasterlib.dev/"
+            alt=""
+          />
+          Anim Master Lib</a
+        >
+        <a href="https://www.designprompts.dev/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.designprompts.dev/"
+            alt=""
+          />
+          Design Prompts</a
+        >
+        <a href="https://auragradients.vercel.app/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://auragradients.vercel.app/"
+            alt=""
+          />
+          Aura Background Gradients</a
+        >
+        <a href="https://godly.design/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://godly.design/"
+            alt=""
+          />
+          Godly Design - Entire full stack identiy</a
+        >
+        <a href="https://github.com/public-apis/public-apis" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Public APIs</a
+        >
+      </div>
+      <!-- <div class="cat">
+        <h2>&#x1F534; Top AI chats</h2>
+        <a
+          href="https://www.perplexity.ai/search/1243fa81-2e20-4740-9084-206e98b15400"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.perplexity.ai/search/1243fa81-2e20-4740-9084-206e98b15400"
+            alt=""
+          />
+          Docs for Reporting at WCE</a
+        >
+      </div> -->
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Productivity</h2>
+        <a href="https://shubhgw.github.io/minimalclock/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://shubhgw.github.io/minimalclock/"
+            alt=""
+          />
+          Clock</a
+        >
+        <a href="https://open.spotify.com/collection/tracks" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://open.spotify.com/collection/tracks"
+            alt=""
+          />
+          Spotify Collection</a
+        >
+        <a
+          href="https://open.spotify.com/track/0WYHyXbWlxebtUUZFMgdfK?autoplay_ok=1"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://open.spotify.com/track/0WYHyXbWlxebtUUZFMgdfK?autoplay_ok=1"
+            alt=""
+          />
+          852 Hz - Stop overthinking</a
+        >
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Mine Github Repos</h2>
+        <a href="https://github.com/shubhgw/i" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          PF shubhgw glassy</a
+        >
+        <a href="https://github.com/shubhgw/me" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          PF shubhgw neobrut</a
+        >
+        <a href="https://github.com/shubhgw/opticalmanagement" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Optical Shop</a
+        >
+        <a href="https://github.com/shubhgw/webdevlearning" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          WebDevLearning</a
+        >
+        <a href="https://github.com/shubhgw/minimalclock" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Minimalistic Clock</a
+        >
+        <a href="https://github.com/shubhgw/ultraeditclone" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          UltraEdit Clone</a
+        >
+        <a href="https://github.com/shubhgw/buymeacoke" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          BuyMeA-Coke</a
+        >
+        <a href="https://github.com/shubhgw/starter" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Starter</a
+        >
+        <!-- <a href="https://github.com/shubhgw/personalmanager" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Personal Manager</a
+        > -->
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Usefull Github Repos</h2>
+        <a href="https://github.com/yt-dlp/yt-dlp" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          yt-dlp - downloader</a
+        >
+        <a href="https://github.com/ollama/ollama" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          ollama - run LLMs locally</a
+        >
+        <a href="https://github.com/lllyasviel/Fooocus" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          Fooocus - prompting & generating</a
+        >
+        <a href="https://github.com/openai/whisper" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          whisper - audio
+        </a>
+      </div>
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Imp. AI commands</h2>
+        <a href="" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chatgpt.com"
+            alt=""
+          />
+          /explodedview F1car</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chatgpt.com"
+            alt=""
+          />
+          /Xray F1car</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chatgpt.com"
+            alt=""
+          />
+          /handwrittern F1car</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://chatgpt.com"
+            alt=""
+          />
+          /stickynotes F1car</a
+        >
+      </div>
+
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Github Tricks</h2>
+        <a href="" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          githmcp.io - mcp config</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          github.dev - open web dev</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          gitingest.com - view whole directory</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          explaingithub.com - ask qs about repo</a
+        >
+        <a href="" target="_blank"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/free-github-logo-icon-svg-download-png-721954.png?f=webp&w=256"
+            alt=""
+          />
+          uithub.com - ask qs about repo</a
+        >
+      </div>
+      <!-- <div class="cat">
+        <h2>&#x1F534; Logo Fonts</h2>
+        <a
+          href="https://fontmeme.com/fonts/droid-logo-font/#previewtool"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          droid logo</a
+        >
+        <a
+          href="https://fontmeme.com/fonts/maves-font/#previewtool"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          maves</a
+        >
+
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          moon walk</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          geom</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          equinox</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          deltha</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          godens demo</a
+        >
+        <a href="https://fonts.google.com" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://fonts.google.com"
+            alt=""
+          />
+          perisian</a
+        > 
+      </div> -->
+      <!-- <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Leetcode premium</h2>
+        <a href="https://github.com/topics/leetcode-questions" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://leetcode.com"
+            alt=""
+          />
+          LC qs</a
+        >
+      </div> -->
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Design themes</h2>
+        <a href="https://uxpilot.ai/blogs/glassmorphism-ui" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://uxpilot.ai"
+            alt=""
+          />
+          glassmorphism</a
+        >
+        <a
+          href="https://think.design/blog/complete-guide-to-skeumorphic-design/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://think.design"
+            alt=""
+          />
+          skewmorphism</a
+        >
+        <a
+          href="https://aesthetics.fandom.com/wiki/Neubrutalism"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://aesthetics.fandom.com"
+            alt=""
+          />
+          neo brutalism</a
+        >
+        <a
+          href="https://elements.envato.com/learn/minimalist-design-guide"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://elements.envato.com"
+            alt=""
+          />
+          minimalism</a
+        >
+        <a
+          href="https://www.ui-layouts.com/components/liquid-glass"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.ui-layouts.com"
+            alt=""
+          />
+          liquid glass</a
+        >
+        <a
+          href="https://www.setproduct.com/blog/claymorphism-design-guide"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.setproduct.com"
+            alt=""
+          />
+          img claymorphism</a
+        >
+      </div>
+      <!-- <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Tech Benefits</h2>
+        <a href="" target="_blank">gSkills lab</a>
+        <a href="" target="_blank">GitHub student dev pack</a>
+        <a href="" target="_blank">Google 1TB storage</a>
+        <a href="" target="_blank">Cisco networking academy</a>
+        <a href="" target="_blank">Coursera Financial aid</a>
+        <a href="" target="_blank">IBM skill build</a>
+      </div> -->
+      <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Hackathons</h2>
+        <a
+          href="https://www.hackerearth.com/challenges/hackathon/"
+          target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://www.hackerearth.com"
+            alt=""
+          />
+          HackerEarth</a
+        >
+        <a href="https://sih.gov.in/" target="_blank"
+          ><img
+            src="https://www.google.com/s2/favicons?domain_url=https://sih.gov.in"
+            alt=""
+          />
+          SIH - smart india hackthon</a
+        >
+      </div>
+      <!-- <div class="cat">
+        <img class="link-icon" src="assests/images/link.png" alt="🚀" />
+        <h2>Others</h2>
+        <a href="" target="_blank"></a>
+      </div> -->
+    </main>
+    <footer>
+      <!-- <h4>this is footer</h4> -->
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
