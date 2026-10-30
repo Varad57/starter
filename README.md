@@ -1,72 +1,77 @@
-# 🙏 Welcome to the README of <a href="https://shubhgw.github.io/starter">Starter</a> Page 👈
+# 🚀 Starter — Personal Browser Launchpad & Dashboard
 
-## <a href="https://shubhgw.github.io/portfolioshubhgw"> 🌐 Starter site : https://shubhgw.github.io/starter </a>
+A lightweight, high-performance, and customizable browser start page and daily productivity launcher.
 
-<img src="assests/images/showimage.png" alt="Show image" />
+<div align="center">
+  <img src="assests/images/showimage.png" alt="Starter Showcase" width="850" />
+</div>
 
-### 🎨 I kept this simple in terms of UI , 😁
+---
 
-### 🎨 U can customize it according to your needs & use cases. 😁
+## ✨ Features
 
-## ✅ Most Needed
+- **⚙️ Full User Customization**:
+  - **Add New Blocks**: Create custom category blocks anytime.
+  - **Rename Titles**: Edit and rename any category header on the fly.
+  - **Edit URLs & Labels**: Modify link destinations, titles, or custom icons with live favicon resolution.
+  - **Reorder & Organize**: Move blocks up or down to match your daily workflow.
+  - **Delete Controls**: Clean up links or blocks you no longer need.
+- **🔍 Instant Live Search**: Filter through hundreds of categorized links and blocks in real-time (Press `/` to focus).
+- **💾 Local Storage & Portability**:
+  - Automatically saves all your customizations in your browser.
+  - **Export to JSON** to back up your setup or take it to another device.
+  - **Import from JSON** or **Reset to Defaults** at any time.
+- **🎨 Modern Dark Glassmorphic Design**:
+  - Curated dark palette with translucent blur (`backdrop-filter: blur(10px)`).
+  - Smooth hover micro-interactions and transitions.
+  - Fully responsive across desktop, tablet, and mobile screens.
+- **⚡ Zero Build Dependencies**: Pure HTML5, Vanilla CSS3, and JavaScript — fast load times with no external build tool required.
 
-## ✅ Google WorkSpace
+---
 
-## ✅ Current Learning
+## ⌨️ Keyboard Shortcuts
 
-## ✅ Learning Resources
+| Shortcut | Action |
+| :--- | :--- |
+| `Ctrl + E` / `Cmd + E` | Toggle **Customize Mode** |
+| `/` | Focus the **Search Bar** |
+| `Escape` | Clear Search and reset view |
 
-## ✅ Social
+---
 
-## ✅ AI tools
+## 📂 Project Structure
 
-## ✅ Development
+```
+starter/
+├── index.html       # Main application markup & preset links
+├── styles.css       # Design tokens, glassmorphism UI & responsive styles
+├── app.js           # Customization engine, search, modals & localStorage
+├── README.md        # Documentation
+├── works.txt        # Development backlog and tracking
+└── assests/         # Local assets & icons
+    ├── images/      # UI icons, preview images
+    └── gifs/        # Keyboard animation assets
+```
 
-## ✅ Productivity
+---
 
-## ✅ Top AI chats
+## 💻 Running Locally
 
-## ✅ Mine Github Repos
+Simply clone the repository and open `index.html` directly in your browser, or run a local HTTP server:
 
-## ✅ Usefull Github Repos
+```bash
+# Clone the repository
+git clone https://github.com/Varad57/starter.git
+cd starter
 
-## ✅ Important AI commands
+# Run local web server
+python3 -m http.server 8000
+```
 
-## ✅ Github Tricks
+Then visit **`http://localhost:8000`** in your browser.
 
-## ✅ Logo Fonts
+---
 
-## ✅ Leetcode premium
+## 👤 Author
 
-## ✅ Design themes
-
-## ✅ Tech Benefits
-
-## ✅ About Hackathons & Competitions
-
-## ✅ Others
-
-## I keep updating it according to mine needs.
-
-<pre>
-Directory structure:
-└── shubhgw-starter/
-    ├── README.md
-    ├── index.html
-    ├── styles.css
-    ├── assets/
-    |   └── images/
-    |    |    ├── findinpage.png
-    |    |    ├── go.png
-    |    |    ├── keyboard.png
-    |    |    └── link.png
-    |    └── gifs/
-    |        └── keybaord-animation.mp4
-    └── .github/
-        └── workflows/
-            └── static.yml
-</pre>
-
-### 🙌 Thanks for the Visit !
-
-// testing on new os 
+Developed & maintained by **[Varad57](https://github.com/Varad57)**.
