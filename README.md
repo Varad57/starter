@@ -1,17 +1,17 @@
-# 🚀 Starter — Personal Browser Launchpad & Dashboard
+# Starter — Personal Browser Launchpad & Dashboard
 
 A lightweight, high-performance, and customizable browser start page and daily productivity launcher.
 
 ## Features
 
-- **⚙️ Full User Customization**:
+- ** Full User Customization**:
   - **Add New Blocks**: Create custom category blocks anytime.
   - **Rename Titles**: Edit and rename any category header on the fly.
   - **Edit URLs & Labels**: Modify link destinations, titles, or custom icons with live favicon resolution.
   - **Reorder & Organize**: Move blocks up or down to match your daily workflow.
   - **Delete Controls**: Clean up links or blocks you no longer need.
-- **🔍 Instant Live Search**: Filter through hundreds of categorized links and blocks in real-time (Press `/` to focus).
-- **💾 Local Storage & Portability**:
+- **Instant Live Search**: Filter through hundreds of categorized links and blocks in real-time (Press `/` to focus).
+- **Local Storage & Portability**:
   - Automatically saves all your customizations in your browser.
   - **Export to JSON** to back up your setup or take it to another device.
   - **Import from JSON** or **Reset to Defaults** at any time.
@@ -23,7 +23,7 @@ A lightweight, high-performance, and customizable browser start page and daily p
 
 ---
 
-## ⌨️ Keyboard Shortcuts
+##  Keyboard Shortcuts
 
 | Shortcut | Action |
 | :--- | :--- |
@@ -66,6 +66,6 @@ Then visit **`http://localhost:8000`** in your browser.
 
 ---
 
-## 👤 Author
+## Author
 
 Developed & maintained by **[Varad57](https://github.com/Varad57)**.
