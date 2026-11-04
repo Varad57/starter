@@ -66,6 +66,3 @@ Then visit **`http://localhost:8000`** in your browser.
 
 ---
 
-## Author
-
-Developed & maintained by **[Varad57](https://github.com/Varad57)**.
